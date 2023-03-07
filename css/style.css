@@ -64,6 +64,16 @@ a{
     overflow: hidden;
 }
 
+.my-box{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #000082;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
 /* introduction page  css start */
 .main-heading{
     margin-top: 224px;
@@ -113,4 +123,21 @@ aside p a:hover{
 }
 .place-white::placeholder{
     color: #fff;
+}
+
+/* checkbox bg */
+.form-check-input:checked{
+    background-color: #000082;
+    border-color: #000082;
+}
+.my-bg:checked{
+    background-color: #F20089;
+    border-color: #F20089;
+}
+.black-bg:checked{
+    background-color: #000;
+    border-color: #000;
+}
+.rotated{
+    transform: rotate(180deg);
 }
