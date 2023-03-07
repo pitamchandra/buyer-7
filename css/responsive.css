@@ -1,0 +1,40 @@
+/* mobile btn responsive */
+@media (max-width: 575.98px){
+    .menu_btn{
+        display: block;
+    }
+    #close{
+        display: none;
+    }
+    aside{
+        display: none;
+    }
+    #main_container{
+        height: auto;
+        overflow: visible;
+    }
+    .main-heading{
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+    .menu_btn{
+        display: block;
+    }
+    aside{
+        display: none;
+    }
+    #close{
+        display: none;
+    }
+    #main_container{
+        height: auto;
+        overflow: visible;
+    }
+    .main-heading{
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+}

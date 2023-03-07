@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alike&display=swap');
+
+body{
+    font-family: 'Alike', serif;
+}
+h1{
+    font-family: 'Abril Fatface', cursive;
+}
+/* common css */
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.w-64{
+    width: 64px;
+}
+.h-64{
+    height: 64px;
+}
+.h-96{
+    height: 96px;
+}
+.h-128{
+    height: 128px;
+}
+.border-radius{
+    border-radius: 12px;
+}
+.blue{
+    color: #0000A3;
+}
+.bg-blue{
+    background: #0000A3;
+}
+.blue-500{
+    color: #000082;
+}
+.bg-blue-500{
+    background: #000082;
+}
+.bg_purple{
+    background: #F20089;
+}
+.bg_purple_subtle{
+    background: #FDD9ED;
+}
+.bg_info{
+    background: #CCDCFF;
+}
+.bg_green{
+    background: #23E33E;
+}
+.bg_green_subtle{
+    background: #E9FCEC;
+}
+.sm_text{
+    font-size: 13px;
+}
+.active{
+    color: #000082;
+}
+#main_container{
+    height: 1018px;
+    overflow: hidden;
+}
+
+/* introduction page  css start */
+.main-heading{
+    margin-top: 224px;
+    margin-left: 208px;
+}
+/* .main-heading h1{
+    font-size: 84px;
+    line-height: 100px;
+} */
+.main-heading p{
+    margin-top: 20px;
+    margin-bottom: 118px;
+}
+
+aside p a{
+    color: #000;
+}
+aside p a:hover{
+    color: #0000A3;
+}
+
+/* menu btn */
+.menu_btn{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 999;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+.menu_btn img{
+    width: 100%;
+}
+
+
+/* grid style here */
+
+.my-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 124px);
+}
+.my-round{
+    width: 12px;
+    height: 12px;
+}
+.place-white::placeholder{
+    color: #fff;
+}
